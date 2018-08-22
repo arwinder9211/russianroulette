@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "russianroulette", "russianroulette\russianroulette.csproj", "{37582DA3-5FB2-4255-8DE9-AEC256F15470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shootinggameTest", "shootinggame\shootinggameTest.csproj", "{5FF5430F-8992-4409-988A-B576875B98BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37582DA3-5FB2-4255-8DE9-AEC256F15470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37582DA3-5FB2-4255-8DE9-AEC256F15470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37582DA3-5FB2-4255-8DE9-AEC256F15470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37582DA3-5FB2-4255-8DE9-AEC256F15470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF5430F-8992-4409-988A-B576875B98BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF5430F-8992-4409-988A-B576875B98BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF5430F-8992-4409-988A-B576875B98BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF5430F-8992-4409-988A-B576875B98BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B07D961-C862-4BBB-91B8-A2D0BB9F4F10}
+	EndGlobalSection
+EndGlobal
