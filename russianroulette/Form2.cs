@@ -71,7 +71,7 @@ namespace russianroulette
             Application.Restart();
             // here is coding about how to restart game
         }
-        void round_count()
+        void Round_count()
         {
             round++;
             label3.Text = "Round " + round;
@@ -81,9 +81,10 @@ namespace russianroulette
             }
 
         }
+        // here is a 6 round fire coding
         public void PointAway()
         {
-            round_count();
+            Round_count();
             chamber_count++;
         }
 
@@ -93,7 +94,7 @@ namespace russianroulette
 
             spin_sound.spin_sound();
             SpinBullet();
-
+            //here is spin button coding
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -106,7 +107,7 @@ namespace russianroulette
 
                 shot_sound.shot_sound();
 
-                round_count();
+                Round_count();
                 chamber_count++;
 
                 if (playerGun[chamber_count] == 1)
@@ -124,6 +125,8 @@ namespace russianroulette
                 {
                     MessageBox.Show("YOU WON!!!\n\n***End Game***\n***Restart Game***");
                     Restart();
+
+                    //here is coding about restart and you won amd survived coding
                 }
             }
         }
@@ -164,6 +167,7 @@ namespace russianroulette
                     chamber_count++;
 
                     Restart();
+                    //here is coding about shoot away.
                 }
             }
         }
